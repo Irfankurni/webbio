@@ -59,6 +59,7 @@
             },
             "cloudflare": {
               "outputHashing": "all",
+              "externalDependencies": ["express", "@angular/ssr/node"],
               "ssr": {
                 "entry": "src/cloudflare.ts"
               }
