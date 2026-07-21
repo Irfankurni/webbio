@@ -16,9 +16,9 @@ import { TranslatePipe } from '../../core/i18n/translate.pipe';
         <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <div class="flex items-center gap-2">
             <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-violet-600 to-fuchsia-600 flex items-center justify-center font-bold text-lg">
-              W
+              L
             </div>
-            <span class="font-bold text-xl tracking-tight">Web Bio</span>
+            <span class="font-bold text-xl tracking-tight">Linku</span>
           </div>
           
           <div class="flex items-center gap-4">
@@ -193,7 +193,7 @@ import { TranslatePipe } from '../../core/i18n/translate.pipe';
             <div class="w-6 h-6 rounded bg-gradient-to-br from-violet-600 to-fuchsia-600 flex items-center justify-center font-bold text-white text-xs">
               W
             </div>
-            <span class="font-semibold text-slate-300">Web Bio &copy; 2026</span>
+            <span class="font-semibold text-slate-300">Linku &copy; 2026</span>
           </div>
           
           <div class="flex gap-6">
@@ -215,10 +215,10 @@ export class LandingPageComponent {
   constructor() {
     effect(() => {
       const t = this.ts.t();
-      this.title.setTitle(`Web Bio — ${t('LANDING.HERO.TITLE1')} ${t('LANDING.HERO.TITLE2')}`);
-      this.meta.updateTag({ 
-        name: 'description', 
-        content: t('LANDING.HERO.DESC') 
+      this.title.setTitle(`Linku — ${t('LANDING.HERO.TITLE1')} ${t('LANDING.HERO.TITLE2')}`);
+      this.meta.updateTag({
+        name: 'description',
+        content: t('LANDING.HERO.DESC')
       });
     });
   }

@@ -19,13 +19,13 @@ export const routes: Routes = [
         path: 'login',
         loadComponent: () =>
           import('./features/auth/login/login.component').then(m => m.LoginComponent),
-        title: 'Masuk — Web Bio',
+        title: 'Masuk — Linku',
       },
       {
         path: 'register',
         loadComponent: () =>
           import('./features/auth/register/register.component').then(m => m.RegisterComponent),
-        title: 'Daftar — Web Bio',
+        title: 'Daftar — Linku',
       },
     ],
   },
@@ -42,38 +42,38 @@ export const routes: Routes = [
         path: 'overview',
         loadComponent: () =>
           import('./features/dashboard/overview/overview.component').then(m => m.OverviewComponent),
-        title: 'Dashboard — Web Bio',
+        title: 'Dashboard — Linku',
       },
       {
         path: 'links',
         loadComponent: () =>
           import('./features/dashboard/links/link-list.component').then(m => m.LinkListComponent),
-        title: 'Kelola Link — Web Bio',
+        title: 'Kelola Link — Linku',
       },
 
       {
         path: 'analytics',
         loadComponent: () =>
           import('./features/dashboard/analytics/analytics-dashboard.component').then(m => m.AnalyticsDashboardComponent),
-        title: 'Analitik — Web Bio',
+        title: 'Analitik — Linku',
       },
       {
         path: 'appearance',
         loadComponent: () =>
           import('./features/dashboard/appearance/appearance.component').then(m => m.AppearanceComponent),
-        title: 'Tampilan — Web Bio',
+        title: 'Tampilan — Linku',
       },
       {
         path: 'settings',
         loadComponent: () =>
           import('./features/dashboard/settings/settings.component').then(m => m.SettingsComponent),
-        title: 'Pengaturan — Web Bio',
+        title: 'Pengaturan — Linku',
       },
       {
         path: 'upgrade',
         loadComponent: () =>
           import('./features/dashboard/upgrade/upgrade.component').then(m => m.UpgradeComponent),
-        title: 'Upgrade ke Pro — Web Bio',
+        title: 'Upgrade ke Pro — Linku',
       },
     ],
   },
